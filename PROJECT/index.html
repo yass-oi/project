@@ -1,0 +1,117 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+        <!-- importer le fichier de style -->
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+       
+            <!-- zone de connexion -->
+     
+            <form class= "container ofsset-5  col-md-5"  method="POST">
+                <h1 class= "align-center">veuillez verifier les données</h1>
+             <!-------------------------------------->
+             <!------------------ AGE------------>
+
+            <div>  <label><b>AGE</b></label><br>
+           <input type="number" id="age" placeholder="veuillez saisir votre age" name="age" required>
+            </div><br>
+            <!-------------------------------------->
+            <!------------------ SEXE ----------->
+            <div> 
+                <label for="sexe" class="form-label"><b>SEXE:</b></label>
+                <select class="form-select" id="sexe" name="sexe1">
+                  <option>homme</option>
+                  <option>femme</option>
+                </select>
+                <br>
+            </div>
+            <!-------------------------------------->
+              <!------------------ TDA------------>
+            <div>
+                <label for="tdt" class="form-label"><b>TDT</b></label>
+                <select class="form-select" id="tdt" name="tda">
+                  <option>AA</option>
+                  <option>DNA</option>
+                  <option>ASY</option>
+                  <option>AT</option>
+                </select>
+            </div>
+            <!-------------------------------------->
+            <!------------------ PAR ------------>
+
+            <div>  <label><b>PAR</b></label> <br>
+                <input type="number" id ="par" placeholder="veuillez saisir" name="par" required>
+            </div><br>
+
+        <!------------------ CHOLESTEROL------------>
+
+            <div>  <label><b>CHOLESTEROL</b></label><br>
+                <input type="number" placeholder="veuillez saisir" id="chol"name="cholesterol" valuerequired>
+            </div><br>
+
+         <!------------------ GAJ------------>
+            <div> 
+                <label for="gaj" class="form-label"><b>GAJ</b></label>
+                <select class="form-select" id="gaj" name="gaj">
+                  <option>0</option>
+                  <option>1</option>
+                </select>
+            </div>
+
+         <!------------------ FCMAX------------>
+            <div>  <label><b>FCMAX</b></label><br>
+                <input type="number" placeholder="veuillez saisir" id="fcmax"name="pseudo" required>
+            </div><br>
+        <!------------------ ANGINE ------------>
+
+            <div>  <label for="angine" class="form-label"><b>ANGINE</b></label>
+                <select class="form-select" id="ang" name="agin">
+                  <option>oui</option>
+                  <option>non</option>
+                </select>
+            </div>
+
+            <!------------------ DEPRESSION------------>
+
+            <div>  <label><b>DEPRESSION</b></label><br>
+                <input type="number" placeholder="veuillez saisir" id ="depr" name="depression" required>
+            </div><br>
+            <!-------------------------------------->
+            <!------------------ECG------------>
+            <div><label for="ecg" class="form-label"><b>ECG</b></label>
+                <select class="form-select" id="ecg" name="ecg">
+                  <option>Normal</option>
+                  <option> ST</option>
+                  <option> LVH</option>
+                </select>
+            </div>
+            <!-------------------------------------->
+            <!------------------ PENTE------------>
+            <div> 
+                <label for="pente" class="form-label"><b>PENTE</b></label>
+                <select class="form-select" id="pente-1" name="pente">
+                  <option>Ascendant</option>
+                  <option>Plat</option>
+                  <option>Descendant</option>
+                </select>
+                <br>
+            </div>
+        <!-------------------------------------->
+        <!------------------ coeur------------>
+            <div> 
+                <label for="coeur" class="form-label"><b>COEUR</b></label>
+                <select class="form-select" id="coeur" name="coeur1">
+                  <option>0</option>
+                  <option>1</option>
+                </select>
+                <br>
+            </div>
+                <input type="submit" id='submit' value='PREDIRE' >
+        </form>
+               
+                     
+
+    </body>
+</html>
